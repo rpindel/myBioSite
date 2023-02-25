@@ -74,6 +74,6 @@ figure h3 {
   text-align: center;
 }
 
-#container, .hobbies, .experience, .card, header, footer {
+#container, .hobbies, .experience, .card, header, footer, figure {
   border: solid 2px red;
 }
