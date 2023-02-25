@@ -27,12 +27,17 @@ h1 {
   font-weight: 400;
 }
 
-h2, h3 {
+h2 {
   text-align: center;
+  color: #c19ba6;
+}
+
+h3 {
+  color: #4c7eb2;
 }
 
 #container {
-  margin: 2% 2% 2% 2%;
+  margin: 2% 2% 2% 2%; /* Total of 96% width available*/
 }
 
 .card {
@@ -41,10 +46,6 @@ h2, h3 {
   width: 32%;
   margin: 0 auto;
   background-color: #efc3d2;
-}
-
-.card:hover {
-  box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.2);
 }
 
 .hobbies, .experience {
@@ -56,10 +57,14 @@ h2, h3 {
   display: inline-block;
 }
 
-.card-title {
+.card-title, figcaption {
   text-align: center;
-  color: #4c7eb2;
   font-weight: 400;
+}
+
+.contact {
+  color: #c19ba6;
+  font-weight: bold;
 }
 
 .card-content {
@@ -74,6 +79,10 @@ figure h3 {
   text-align: center;
 }
 
-#container, .hobbies, .experience, .card, header, footer, figure {
-  border: solid 2px red;
+img {
+  width: 100%;
 }
+
+/*#container, .hobbies, .experience, .card, header, footer, figure {
+  border: solid 2px red;
+}*/
