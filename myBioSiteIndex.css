@@ -63,8 +63,12 @@ h3 {
 }
 
 .contact {
-  color: #c19ba6;
+  color: white;
   font-weight: bold;
+}
+
+#copyright {
+  color: #c19ba6;
 }
 
 .card-content {
