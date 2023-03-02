@@ -3,9 +3,11 @@ Module 12 myBioSite Landing Page Assignment
 2/25/2023*/
 
 header, footer {
-  background-color: #9c7491;
+  /*background-color: #9c7491;*/
+  background-color: #c19ba6;
   color: white;
   text-align: center;
+  font-weight: bold;
 }
 
 header {
@@ -20,20 +22,24 @@ footer {
 
 body {
   font-family: 'Open Sans', sans-serif;
-  background-color: #f9dbe3;
+  /*background-color: #f9dbe3;*/
+  background-color: #efc3d2;
 }
 
-h1 {
+/*h1 {
   font-weight: 400;
-}
+}*/
 
 h2 {
   text-align: center;
-  color: #c19ba6;
+  /*color: #c19ba6;*/
+  color: #9c7491;
+  /*color: #4c7eb2;*/
 }
 
 h3 {
   color: #4c7eb2;
+  /*color: #9c7491;*/
 }
 
 #container {
@@ -43,9 +49,10 @@ h3 {
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  width: 32%;
-  margin: 0 auto;
-  background-color: #efc3d2;
+  width: 30%;
+  margin: 10px;
+  /*background-color: #efc3d2;*/
+  background-color: #f9dbe3;
 }
 
 .hobbies, .experience {
@@ -55,20 +62,23 @@ h3 {
 
 .hobbies .card, .experience .card {
   display: inline-block;
+  vertical-align: top;
 }
 
 .card-title, figcaption {
   text-align: center;
-  font-weight: 400;
+  font-weight: 500;
+  color: #4c7eb2;
 }
 
-.contact {
+/*.contact {
   color: white;
   font-weight: bold;
-}
+}*/
 
 #copyright {
-  color: #c19ba6;
+  /*color: #c19ba6;*/
+  font-weight: 300;
 }
 
 .card-content {
@@ -85,6 +95,8 @@ figure h3 {
 
 img {
   width: 100%;
+  border: solid 2px #9c7491;
+  padding: 2px;
 }
 
 /*#container, .hobbies, .experience, .card, header, footer, figure {
