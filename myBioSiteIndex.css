@@ -91,3 +91,16 @@ button {
 button:hover {
   background-color: #4c7eb2;
 }
+
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.contact, div.button, div.copyright {
+  display: inline-block;
+  width: 30%;
+  padding: 10px 0px;
+}
