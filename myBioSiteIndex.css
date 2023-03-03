@@ -4,7 +4,8 @@ Module 12 myBioSite Landing Page Assignment
 
 References
 1. Mew (pokemon) color palette image format. " Blue " SchemeColor.com. (n.d.). Retrieved March 2, 2023, from https://www.schemecolor.com/mew-pokemon-colors.php
-2. How to style buttons with CSS. (n.d.). Retrieved March 2, 2023, from https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html#:~:text=How%20to%20Style%20Buttons%20with%20CSS%201%201.,step.%20...%203%203.%20Style%20the%20hover%20state*/
+2. How to style buttons with CSS. (n.d.). Retrieved March 2, 2023, from https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html#:~:text=How%20to%20Style%20Buttons%20with%20CSS%201%201.,step.%20...%203%203.%20Style%20the%20hover%20state
+3. Website contact form without php. GeekThis Programming Blog. (2014, June 29). Retrieved March 3, 2023, from https://geekthis.net/post/website-contact-form-without-php/ */
 
 header, footer {
   background-color: #c19ba6;
@@ -35,7 +36,7 @@ h3 {
   margin: 2% 2% 2% 2%; /* Total of 96% width available*/
 }
 
-.hobbies, .experience {
+.hobbies, .experience, #contact {
   text-align: center;
 }
 
@@ -104,3 +105,19 @@ div.contact, div.button, div.copyright {
   width: 30%;
   padding: 10px 0px;
 }
+
+.form {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 0px auto 5px auto;
+  padding: 5px 0px 5px 0px;
+  background-color: #f9dbe3;
+  border-radius: 10px;
+  border: solid 2px #9c7491;
+  display: block;
+}
+
+/*#container {
+  border: 1px solid red;
+}*/

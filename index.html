@@ -4,7 +4,8 @@ Module 12 myBioSite Landing Page Assignment
 
 References
 1. Mew (pokemon) color palette image format. " Blue " SchemeColor.com. (n.d.). Retrieved March 2, 2023, from https://www.schemecolor.com/mew-pokemon-colors.php
-2. How to style buttons with CSS. (n.d.). Retrieved March 2, 2023, from https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html#:~:text=How%20to%20Style%20Buttons%20with%20CSS%201%201.,step.%20...%203%203.%20Style%20the%20hover%20state-->
+2. How to style buttons with CSS. (n.d.). Retrieved March 2, 2023, from https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html#:~:text=How%20to%20Style%20Buttons%20with%20CSS%201%201.,step.%20...%203%203.%20Style%20the%20hover%20state
+3. Website contact form without php. GeekThis Programming Blog. (2014, June 29). Retrieved March 3, 2023, from https://geekthis.net/post/website-contact-form-without-php/-->
 
 <!DOCTYPE html>
 <html lang="en-us">
@@ -84,6 +85,20 @@ References
         </div>
       </div>
     </div>
+    <div class="form">
+      <form name="contact" method="post">
+        <label>First Name</label>
+        <input type="text" name="fName" /><br>
+        <label>Last Name</label>
+        <input type="text" name="lName" /><br>
+        <label>Email Address</label>
+        <input type="email" name="email" /><br>
+        <label>Message</label>
+        <textarea name="message"></textarea><br>
+        
+        <input type="submit" name="send" value="Send Message" />
+      </form>
+    </div>
   </div>
   <footer>
     <div class="contact">
@@ -106,5 +121,39 @@ References
       Pindel</p>
   </footer>
   -->
+  <script>
+    var form = document.forms["contact"];
+    form.addEventListener('submit',contact_submit,false);
+
+    function contact_submit(e) {
+      // Stop form from submitting
+      e.preventDefault();
+
+      //Set initial variables
+      var target = e.target || e.srcElement;
+      var to = 'rpindel@my365.bellevue.edu';
+      var uri = 'mailto:' + to;
+      var subject = "Hi!";
+      var body = '';
+
+      //Set form values to variables
+      var fName = target.elements['fName'].value;
+      var lName = target.elements['lName'].value;
+      var emailAddress = target.elements['email'].value;
+      var message = target.elements['message'].value;
+
+      //Build body / message
+      body += message + "\r\n\r\n";
+      body += "Name: " + fName + " " + lName + "\r\n";
+      body += "Email Address: " + emailAddress + "\r\n";
+
+      //Build final Mailto URI
+      uri += '?subject' + encodeURIComponent(subject);
+      uri += '&body' + encodeURIComponent(body);
+
+      //Open Mailto in new window / tab
+      window.open(uri,'_blank');
+    }
+  </script>
 </body>
 </html>
