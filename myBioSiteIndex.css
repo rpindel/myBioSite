@@ -7,7 +7,6 @@ References
 2. How to style buttons with CSS. (n.d.). Retrieved March 2, 2023, from https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html#:~:text=How%20to%20Style%20Buttons%20with%20CSS%201%201.,step.%20...%203%203.%20Style%20the%20hover%20state*/
 
 header, footer {
-  /*background-color: #9c7491;*/
   background-color: #c19ba6;
   color: white;
   text-align: center;
@@ -50,7 +49,6 @@ h3 {
   display: inline-block;
   vertical-align: top;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
   width: 30%;
   margin: 10px;
   background-color: #f9dbe3;
@@ -78,17 +76,16 @@ img {
 button {
   background-color: #9c7491;
   padding: 5px 10px;
-  /*width: 150px;*/
   color: white;
   text-align: center;
   border: 1px solid white;
   border-radius: 10px;
   font-size: 12px;
   cursor: pointer;
-  -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
-  -moz-transition: all 0.5s; /* add this line, firefox */
-  -o-transition: all 0.5s; /* add this line, opera */
-  transition: all 0.5s; /* add this line */
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 button:hover {
