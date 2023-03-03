@@ -13,31 +13,23 @@ header, footer {
   text-align: center;
   font-weight: bold;
   border-radius: 10px;
-}
-
-header {
-  padding-top: 20px;
-  padding-bottom: 10px;
-}
-
-footer {
-  padding-top: 10px;
-  padding-bottom: 20px;
+  border: solid 2px #9c7491;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
-  /*background-color: #f9dbe3;*/
   background-color: #efc3d2;
 }
 
 h2 {
   text-align: center;
   color: #9c7491;
+  letter-spacing: 0.25em;
 }
 
 h3 {
   color: #4c7eb2;
+  letter-spacing: 0.125em;
 }
 
 #container {
@@ -63,6 +55,7 @@ h3 {
   margin: 10px;
   background-color: #f9dbe3;
   border-radius: 10px;
+  border: solid 2px #9c7491;
 }
 
 .card-title, figcaption {
@@ -73,10 +66,6 @@ h3 {
 
 #copyright {
   font-weight: 300;
-}
-
-.card-content {
-  padding: 2px 16px;
 }
 
 img {
@@ -105,7 +94,3 @@ button {
 button:hover {
   background-color: #4c7eb2;
 }
-
-/*#container, .hobbies, .experience, .hobby-cards, .experience-cards, .card, header, footer, figure {
-  border: solid 2px red;
-}*/
