@@ -1,6 +1,10 @@
 /*Robin Pindel
 Module 12 myBioSite Landing Page Assignment
-2/25/2023*/
+2/25/2023
+
+References
+1. Mew (pokemon) color palette image format. " Blue " SchemeColor.com. (n.d.). Retrieved March 2, 2023, from https://www.schemecolor.com/mew-pokemon-colors.php
+2. How to style buttons with CSS. (n.d.). Retrieved March 2, 2023, from https://www.w3docs.com/snippets/css/how-to-style-buttons-with-css.html#:~:text=How%20to%20Style%20Buttons%20with%20CSS%201%201.,step.%20...%203%203.%20Style%20the%20hover%20state*/
 
 header, footer {
   /*background-color: #9c7491;*/
@@ -8,6 +12,7 @@ header, footer {
   color: white;
   text-align: center;
   font-weight: bold;
+  border-radius: 10px;
 }
 
 header {
@@ -57,6 +62,7 @@ h3 {
   width: 30%;
   margin: 10px;
   background-color: #f9dbe3;
+  border-radius: 10px;
 }
 
 .card-title, figcaption {
@@ -77,6 +83,28 @@ img {
   width: 100%;
   border: solid 2px #9c7491;
   padding: 2px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #9c7491;
+  padding: 5px 10px;
+  /*width: 150px;*/
+  color: white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 5px;
+  -webkit-transition: all 0.5s; /* add this line, chrome, safari, etc */
+  -moz-transition: all 0.5s; /* add this line, firefox */
+  -o-transition: all 0.5s; /* add this line, opera */
+  transition: all 0.5s; /* add this line */
+}
+
+button:hover {
+  background-color: #4c7eb2;
 }
 
 /*#container, .hobbies, .experience, .hobby-cards, .experience-cards, .card, header, footer, figure {
