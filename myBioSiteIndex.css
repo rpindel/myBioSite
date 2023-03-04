@@ -32,6 +32,12 @@ h3 {
   letter-spacing: 0.125em;
 }
 
+.form h3 {
+  text-align: center;
+  color: #9c7491;
+  letter-spacing: 0.125em;
+}
+
 #container {
   margin: 2% 2% 2% 2%; /* Total of 96% width available*/
 }
@@ -63,8 +69,24 @@ h3 {
   color: #4c7eb2;
 }
 
-#copyright {
+footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-details {
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+}
+
+.copyright {
   font-weight: 300;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
 }
 
 img {
@@ -74,9 +96,39 @@ img {
   border-radius: 10px;
 }
 
-button {
+.form {
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin: 0px auto 5px auto;
+  padding: 5px 20px 20px 20px;
+  background-color: #f9dbe3;
+  border-radius: 10px;
+  border: solid 2px #9c7491;
+}
+
+label, textarea {
+  display: inline-block;
+  clear: left;
+  text-align: left;
+  width: 45%;
+  margin: 5px;
+  color: #9c7491;
+}
+
+input {
+  display: inline-block;
+  width: 45%;
+}
+
+textarea {
+  vertical-align: top;
+}
+
+#submit {
   background-color: #9c7491;
   padding: 5px 10px;
+  margin-top: 10px;
   color: white;
   text-align: center;
   border: 1px solid white;
@@ -89,35 +141,6 @@ button {
   transition: all 0.5s;
 }
 
-button:hover {
+#submit:hover {
   background-color: #4c7eb2;
 }
-
-footer {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-div.contact, div.button, div.copyright {
-  display: inline-block;
-  width: 30%;
-  padding: 10px 0px;
-}
-
-.form {
-  text-align: center;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 30%;
-  margin: 0px auto 5px auto;
-  padding: 5px 0px 5px 0px;
-  background-color: #f9dbe3;
-  border-radius: 10px;
-  border: solid 2px #9c7491;
-  display: block;
-}
-
-/*#container {
-  border: 1px solid red;
-}*/

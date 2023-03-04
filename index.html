@@ -87,35 +87,31 @@ References
     </div>
     <div class="form">
       <h3>Contact Me</h3>
-      <form name="contact" action="mailto:rpindel@my365.bellevue.edu?subject=Hi Robin" method="post" enctype="text/plain">
-        
+      <form action="mailto:rpindel@my365.bellevue.edu?subject=Hi Robin" method="post" enctype="text/plain">
         <label for="First Name">First Name</label>
-        <input type="text" class="input" name="First Name" placeholder="Your first name..." required/><br>
+        <input type="text" name="First Name" placeholder="Your first name..." required/><br>
         
         <label for="Last Name">Last Name</label>
-        <input type="text" class="input" name="Last Name" required/><br>
+        <input type="text" name="Last Name" placeholder="Your last name..." required/><br>
         
-        <label for="Email Address">Email Address</label>
-        <input type="email" class="input" name="Email Address" required/><br>
+        <label for="Email">Email</label>
+        <input type="email" name="Email" placeholder="Your email address..." required/><br>
         
         <label for="Message">Message</label>
-        <textarea name="Message" cols="20" rows="4" required></textarea><br>
+        <textarea name="Message" cols="20" rows="4" placeholder="Your message..." required></textarea><br>
         
-        <input type="submit" value="Send Message">
+        <div class="submit"><input id="submit" type="submit" value="Send Message"></div>
       </form>
     </div>
-  </div>
+  </div>  
   <footer>
-    <div class="contact">
-      <p >Robin Pindel | rpindel@my365.bellevue.edu</p>
-    </div>
-    <div class="button">  
-      <a href="mailto:rpindel@my365.bellevue.edu"><button type="submit">Send Message</button></a>
-    </div>
-    <div class="copyright">
-      <p id="copyright">Copyright &copy; <script>document.write(new Date().getFullYear())</script>
-      Pindel</p>
-    </div>
+      <div class="contact-details">
+        <p >Robin Pindel | rpindel@my365.bellevue.edu</p>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script>
+        Pindel</p>
+      </div>
   </footer>
   <!--original middle stacked footer
   <footer>
