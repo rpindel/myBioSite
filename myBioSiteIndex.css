@@ -32,14 +32,17 @@ h3 {
   letter-spacing: 0.125em;
 }
 
-.form h3 {
-  text-align: center;
-  color: #9c7491;
-  letter-spacing: 0.125em;
+span {
+  letter-spacing: 0em;
 }
 
 #container {
   margin: 2% 2% 2% 2%; /* Total of 96% width available*/
+}
+
+hr {
+  border: 1px solid #f9dbe3;
+  width: 75%;
 }
 
 .hobbies, .experience, #contact {
@@ -76,17 +79,26 @@ footer {
   align-items: center;
 }
 
-.contact-details {
+.contact-details, .csd340landing {
   display: inline-block;
-  width: 45%;
+  width: 30%;
   text-align: center;
 }
 
 .copyright {
   font-weight: 300;
   display: inline-block;
-  width: 45%;
+  width: 30%;
   text-align: center;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #4c7eb2;
 }
 
 img {
@@ -113,7 +125,7 @@ label, textarea {
   text-align: left;
   width: 45%;
   margin: 5px;
-  color: #9c7491;
+  color: #4c7eb2;
 }
 
 input {

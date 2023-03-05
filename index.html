@@ -22,7 +22,7 @@ References
   </header>
   <div id="container">
     <div class="hobbies">
-      <h2>HOBBIES</h2>
+      <h2>Hobbies</h2>
       <div class="hobby-cards">
         <div class="card">
           <div class="card-title"><h3>Pokémon</h3></div>
@@ -53,8 +53,10 @@ References
         </div>
       </div>
     </div>
+    <br>
+    <hr>
     <div class="experience">
-      <h2>EXPERIENCE</h2>
+      <h2>Experience</h2>
       <div class="experience-cards">
         <div class="card">
           <div class="card-title"><h3>Information Technology</h3></div>
@@ -85,23 +87,27 @@ References
         </div>
       </div>
     </div>
-    <div class="form">
-      <h3>Say Hi!</h3>
-      <form action="mailto:rpindel@my365.bellevue.edu?subject=Hi Robin" method="post" enctype="text/plain">
-        <label for="First Name">First Name</label>
-        <input type="text" name="First Name" placeholder="Your first name..." required/><br>
+    <br>
+    <hr>
+    <div id="form-holder">
+      <h2>Send a <span>"Hi Robin!"</span> message</h2>
+      <div class="form">
+        <form action="mailto:rpindel@my365.bellevue.edu?subject=Hi Robin!" method="post" enctype="text/plain">
+          <label for="First Name">First Name</label>
+          <input type="text" name="First Name" placeholder="Your first name..." required/><br>
         
-        <label for="Last Name">Last Name</label>
-        <input type="text" name="Last Name" placeholder="Your last name..." required/><br>
+          <label for="Last Name">Last Name</label>
+          <input type="text" name="Last Name" placeholder="Your last name..." required/><br>
         
-        <label for="Email">Email</label>
-        <input type="email" name="Email" placeholder="Your email address..." required/><br>
+          <label for="Email">Email Address</label>
+          <input type="email" name="Email" placeholder="Your email address..." required/><br>
         
-        <!--<label for="Message">Message</label>
-        <textarea name="Message" cols="20" rows="4" placeholder="Your message..." required></textarea><br>-->
+          <!--<label for="Message">Message</label>
+          <textarea name="Message" cols="20" rows="4" placeholder="Your message..." required></textarea><br>-->
         
-        <div class="submit"><input id="submit" type="submit" value="Send Message"></div>
-      </form>
+          <div class="submit"><input id="submit" type="submit" value="Send Message"></div>
+        </form>
+      </div>
     </div>
   </div>  
   <footer>
@@ -111,6 +117,9 @@ References
       <div class="copyright">
         <p>Copyright &copy; <script>document.write(new Date().getFullYear())</script>
         Pindel</p>
+      </div>
+      <div class="csd340landing">
+        <a href="https://rpindel.github.io/csd-340">My CSD-340 Landing Page</a>
       </div>
   </footer>
 </body>
