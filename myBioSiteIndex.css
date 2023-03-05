@@ -92,12 +92,21 @@ footer {
   text-align: center;
 }
 
-a {
+.card a {
+  font-weight: 500;
+  color: #4c7eb2;
+}
+
+.card a:hover {
+  background-color: white;
+}
+
+footer a {
   color: white;
   font-weight: bold;
 }
 
-a:hover {
+footer a:hover {
   color: #4c7eb2;
 }
 
